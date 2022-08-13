@@ -5,6 +5,7 @@ import "./Nav.css";
 const Nav = () => {
   const [show, setShow] = useState(false);
 
+  // scroll 내려가면 색 변경
   useEffect(() => {
     window.addEventListener("scroll", () => {
       console.log(window.scrollY);
