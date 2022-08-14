@@ -8,7 +8,6 @@ const Nav = () => {
   // scroll 내려가면 색 변경
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      console.log(window.scrollY);
       if (window.scrollY > 50) {
         setShow(true);
       } else {
