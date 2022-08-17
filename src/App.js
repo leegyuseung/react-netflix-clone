@@ -20,7 +20,7 @@ const Layout = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="react-netflix-clone">
       <div className="App">
         <Routes>
           <Route path="/" element={<Layout />}>
